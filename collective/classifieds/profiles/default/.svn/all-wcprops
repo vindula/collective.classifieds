@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/collective/!svn/ver/247681/collective.classifieds/trunk/collective/classifieds/profiles/default
+END
+metadata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/collective/!svn/ver/247681/collective.classifieds/trunk/collective/classifieds/profiles/default/metadata.xml
+END
+cssregistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/collective/!svn/ver/78150/collective.classifieds/trunk/collective/classifieds/profiles/default/cssregistry.xml
+END
+types.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/collective/!svn/ver/93292/collective.classifieds/trunk/collective/classifieds/profiles/default/types.xml
+END
+factorytool.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/collective/!svn/ver/93292/collective.classifieds/trunk/collective/classifieds/profiles/default/factorytool.xml
+END
+import_steps.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/collective/!svn/ver/112553/collective.classifieds/trunk/collective/classifieds/profiles/default/import_steps.xml
+END
+Classifieds_marker.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/collective/!svn/ver/78150/collective.classifieds/trunk/collective/classifieds/profiles/default/Classifieds_marker.txt
+END
+catalog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/collective/!svn/ver/112553/collective.classifieds/trunk/collective/classifieds/profiles/default/catalog.xml
+END
+workflows.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/collective/!svn/ver/93292/collective.classifieds/trunk/collective/classifieds/profiles/default/workflows.xml
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/collective/!svn/ver/244961/collective.classifieds/trunk/collective/classifieds/browser/templates
+END
+classifieds_by_author_view.pt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/collective/!svn/ver/244961/collective.classifieds/trunk/collective/classifieds/browser/templates/classifieds_by_author_view.pt
+END
+classified_view.pt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/collective/!svn/ver/244961/collective.classifieds/trunk/collective/classifieds/browser/templates/classified_view.pt
+END
+classifiedscategory_view.pt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/collective/!svn/ver/244961/collective.classifieds/trunk/collective/classifieds/browser/templates/classifiedscategory_view.pt
+END
+list_view.pt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/collective/!svn/ver/244961/collective.classifieds/trunk/collective/classifieds/browser/templates/list_view.pt
+END
+all_classifieds_view.pt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/collective/!svn/ver/244961/collective.classifieds/trunk/collective/classifieds/browser/templates/all_classifieds_view.pt
+END

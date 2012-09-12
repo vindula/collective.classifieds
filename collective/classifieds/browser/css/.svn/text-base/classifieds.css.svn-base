@@ -1,0 +1,57 @@
+/* Classifieds stylesheet */
+
+div.classified_options {
+    border:1px solid #EAE8E8;
+    float: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #DDDDDD;
+}
+
+
+.classifiedcategory_image {
+    border:1px solid #DDDDDD;
+    padding: 1px;
+    background-color: #EEF3F5;
+    text-align: right;
+    float: right;
+}
+
+.classifiedstable {
+    border: 0px;
+    width: 100%;
+}
+
+.classified_image {
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.classified_image img {
+    border:1px solid #DDDDDD;
+}
+
+
+h1.classified_title {
+    text-decoration: none;
+    border: 0px;
+    font-weight: bold;
+}
+
+h2.classified_title {
+    text-decoration: none;
+    border: 0px;
+    font-size:110%;
+    font-weight: bold;
+}
+
+img.image_tile {
+    border:1px solid #DDDDDD;
+}
+
+tr.list_view {
+    height: 64px;
+}
+
+
+

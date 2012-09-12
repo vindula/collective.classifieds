@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collective/!svn/ver/124478/collective.classifieds/trunk/collective/classifieds/content
+END
+Validators.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/collective/!svn/ver/115370/collective.classifieds/trunk/collective/classifieds/content/Validators.py
+END
+Classifieds.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/collective/!svn/ver/124478/collective.classifieds/trunk/collective/classifieds/content/Classifieds.py
+END
+OrderedClassifiedsCategory.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/collective/!svn/ver/113739/collective.classifieds/trunk/collective/classifieds/content/OrderedClassifiedsCategory.py
+END
+OrderedClassifieds.py
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/collective/!svn/ver/112547/collective.classifieds/trunk/collective/classifieds/content/OrderedClassifieds.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/collective/!svn/ver/112542/collective.classifieds/trunk/collective/classifieds/content/__init__.py
+END
+interfaces.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/collective/!svn/ver/112547/collective.classifieds/trunk/collective/classifieds/content/interfaces.py
+END
+Classified.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/collective/!svn/ver/124478/collective.classifieds/trunk/collective/classifieds/content/Classified.py
+END
+ClassifiedsCategory.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/collective/!svn/ver/124478/collective.classifieds/trunk/collective/classifieds/content/ClassifiedsCategory.py
+END

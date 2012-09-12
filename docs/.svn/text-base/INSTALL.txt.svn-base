@@ -1,0 +1,70 @@
+collective.classifieds Installation
+==========================
+
+(please read the crossover release section below!)
+
+To install collective.classifieds into the global Python environment (or a workingenv),
+using a traditional Zope 2 instance, you can do this:
+
+ * When you're reading this you have probably already run 
+   ``easy_install collective.classifieds``. Find out how to install setuptools
+   (and EasyInstall) here:
+   http://peak.telecommunity.com/DevCenter/EasyInstall
+
+ * If you are using Zope 2.9 (not 2.10), get `pythonproducts`_ and install it 
+   via::
+
+       python setup.py install --home /path/to/instance
+
+   into your Zope instance.
+
+ * Create a file called ``collective.classifieds-configure.zcml`` in the
+   ``/path/to/instance/etc/package-includes`` directory.  The file
+   should only contain this::
+
+       <include package="collective.classifieds" />
+
+.. _pythonproducts: http://plone.org/products/pythonproducts
+
+
+
+Alternatively, if you are using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+ * Add ``collective.classifieds`` to the list of eggs to install, e.g.:
+ 
+    [buildout]
+    ...
+    eggs =
+        ...
+        collective.classifieds
+        
+  * Tell the plone.recipe.zope2instance recipe to install a ZCML slug:
+  
+    [instance]
+    recipe = plone.recipe.zope2instance
+    ...
+    zcml =
+        collective.classifieds
+        
+  * Re-run buildout, e.g. with:
+  
+    $ ./bin/buildout
+        
+You can skip the ZCML slug if you are going to explicitly include the package
+from another package's configure.zcml file.
+
+Remember to rebuild / reindex your portal_catalog when updating a existing installation.
+Also check archtype_tool if the schema needs to be updated.
+Finally, check the portal_workflow tool if security settings need to be updated
+
+
+
+Important information about the 'crossover release':
+
+This release introduces two new contenttypes, which allows you to manual set the order of the items.
+This order is introduced in the new contenttypes, not the old ones because this will break them and
+all the data will be lost. This is the reason why new contenttypes are introduced.
+If you want to migrate your categories and classifieds to the new contenttypes you have to
+create a 'Classifieds (with order)' container and add 'Category (with order)' items there.
+After that you can cut and paste the classifieds in the correct categories.

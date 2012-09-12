@@ -1,0 +1,148 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="plone">
+    <body>
+        <div metal:fill-slot="main" id="classifieds" tal:define="portal context/@@plone_portal_state/portal;">
+            <div tal:replace="structure provider:plone.abovecontenttitle" />
+            <div metal:use-macro="here/global_statusmessage/macros/portal_message">
+                    Portal status message
+            </div>
+            <div class="classified_options">
+                <ul tal:define="mtool context/portal_membership;
+                                       modificationDate here/Date;
+                                       creator here/Creator;
+                                       author python:mtool.getMemberInfo(creator);
+                                       authorName python:author and author['fullname'] or creator;
+                                       modificationDate python:here.toLocalizedTime(modificationDate)">
+                    <li>
+                        <tal:block i18n:translate="classified_label_placedby">
+                            Classified placed by
+                        </tal:block>:
+                        <a tal:attributes="href string:${here/absolute_url}/author/${here/Creator}"><tal:block tal:content="string:${authorName}">author</tal:block></a>
+
+
+
+                        <tal:block i18n:translate="classifieds_classifiedsclassified_label_placed_at">
+                            on
+                        </tal:block>:
+
+                        <b tal:content="string:$modificationDate">date</b>
+                    </li>
+                    <li>
+
+                        <a i18n:translate="classifieds_classifieds_view" tal:attributes="href string:${here/absolute_url}/classifiedsclassified_by_author_view?author=${here/Creator}">View</a>
+                        <tal:block i18n:translate="classifieds_classifieds_all_created_by">all classifieds created by</tal:block>
+                        <tal:block tal:content="authorName">authorName</tal:block>
+                    </li>
+
+                    <tal:block tal:define="member python:mtool.getMemberById(creator);
+                                                        authormail python:member.getProperty('email')">
+
+                        <tal:block tal:condition="python: len(authormail) > 0">
+
+                            <li>
+                                <tal:block i18n:translate="classifieds_classifieds_email">E-mail</tal:block>
+                                <a tal:attributes="href string:${here/absolute_url}/author/${here/Creator}">
+                                    <tal:block tal:content="string:${authorName}">author</tal:block>
+                                </a>
+                            </li>
+                        </tal:block>
+                    </tal:block>
+
+
+                    <tal:block tal:condition="here/check_delete_permission">
+                    <li>
+                        <a href="delete" i18n:translate="classifieds_classified_delete" tal:attributes="href string:${here/absolute_url}/delete">Delete classified</a>
+                    </li>
+                    </tal:block>
+                </ul>
+            </div>
+
+            <tal:block i18n:translate="classifieds_goto">Go to</tal:block>
+            <a tal:attributes="href python: context.getParentNode().absolute_url()" tal:content="context/getClassifiedsCategory">Content</a>
+            <br />
+
+            <h1 class="classified_title">
+                <span tal:content="context/title">Title</span>
+                <span tal:condition="python:portal.isExpired(here)" i18n:translate="classifieds_classified_expired">(classified expired)</span>
+            </h1>
+
+            <br />
+            <br />
+
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="classified_image">
+                        <tal:block tal:condition="context/hasImage">
+                            <a tal:attributes="href python:here.image_large.absolute_url()" target="_blank">
+                                <img tal:attributes="src python:here.image_mini.absolute_url()" />
+                            </a>
+                            <a class="classified_image" tal:condition="exists: here/additionalimage"
+                               tal:attributes="href python:here.additionalimage_large.absolute_url()" target="_blank">
+                                <img tal:attributes="src python:here.additionalimage_mini.absolute_url()" />
+                            </a>
+                        </tal:block>
+                    </td>
+                    <td tal:condition="exists: here/additionalimage_large" class="classified_image">
+<!--                        <a class="classified_image" tal:attributes="href python:here.additionalimage_large.absolute_url()" target="_blank">
+                            <img tal:attributes="src python:here.additionalimage_mini.absolute_url()" />
+                        </a>
+-->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <tal:block tal:content="structure here/getDescription" />
+
+                        <tal:block tal:condition="exists: context/price">
+                            <h2 class="classified_title" i18n:translate="classifieds_classifiedsclassified_label_price">Price</h2>
+                            <tal:block tal:content="python:'%0.2f' % context.price" />
+                        </tal:block>
+                        <br />
+                    </td>
+                </tr>
+            </table>
+            <h2 class="classified_title" i18n:translate="classifieds_label_classifiedscategory">Classifieds Category</h2>
+            <a tal:attributes="href python: context.getParentNode().absolute_url()" tal:content="context/getClassifiedsCategory">Content</a>
+            <br />
+
+            <h2 class="classified_title"  i18n:translate="classifieds_label_directlink">Directlink:</h2>
+            <a tal:attributes="href python: context.absolute_url()" tal:content="context/absolute_url">Content</a>
+
+            <tal:block tal:condition="context/getExternalurl">
+                <h2 class="classified_title"  i18n:translate="classifieds_label_externalurl">External URL:</h2>
+                <a tal:attributes="href python: context.getExternalurl()" tal:content="context/getExternalurl"  target="_blank">External URL</a>
+            </tal:block>
+
+            <div id="document_actions"
+                     class="documentActions"
+                     tal:define="putils context/plone_utils;
+                                 document_actions actions/document_actions|nothing;
+                                 getIconFor nocall:putils/getIconFor">
+                <tal:docactions tal:condition="document_actions">
+
+                    <h5 class="hiddenStructure" i18n:translate="heading_document_actions">Document Actions</h5>
+
+                    <ul>
+                        <tal:actions repeat="daction document_actions">
+                            <li>
+                                <a href=""
+                               tal:attributes="href daction/url"
+                               tal:content="daction/title">
+                                </a>
+                            </li>
+                        </tal:actions>
+
+                    </ul>
+                </tal:docactions>
+
+                <div tal:replace="structure provider:plone.documentactions" />
+
+            </div>
+
+
+        </div>
+    </body>
+</html>

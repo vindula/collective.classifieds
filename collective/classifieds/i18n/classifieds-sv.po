@@ -1,0 +1,75 @@
+# Gettext Message File for Classifieds
+msgid ""
+msgstr ""
+"Project-Id-Version: Classifieds\n"
+"POT-Creation-Date: 2008-10-10 09:05+0100\n"
+"PO-Revision-Date: 2011-12-30 16:51+0100\n"
+"Last-Translator: Ralph Jacobs <ralph@fourdigits.nl>\n"
+"Language-Team: Webbgruppen <webbgruppen@ysektionen.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: sv\n"
+"Language-name: Swedish\n"
+"Preferred-encodings: utf-8 latin1\n"
+"Domain: classifieds\n"
+"X-Is-Fallback-For: sv-se\n"
+
+msgid "classifieds_classified_description"
+msgstr "Beskrivning"
+
+msgid "classifieds_classified_description_description"
+msgstr "Beskrivning"
+
+msgid "classifieds_classified_image"
+msgstr "Foto"
+
+msgid "classifieds_classified_image_description"
+msgstr "Foto/bild"
+
+msgid "classifieds_classified_additionalimage"
+msgstr "Ytterligare foto"
+
+msgid "classifieds_classified_additionalimage_desc"
+msgstr "Ytterligare foto/bild"
+
+msgid "classifieds_classified_price"
+msgstr "Pris"
+
+msgid "classifieds_classified_price_description"
+msgstr "Pris på annons"
+
+msgid "classifieds_classifieds"
+msgstr "Annonser"
+
+msgid "classifieds_you_searched_on"
+msgstr "Du sökte på"
+
+msgid "classifieds_resultsfound"
+msgstr "annonser hittade"
+
+msgid "classifieds_classifieds_all_created_by"
+msgstr "Alla annonser skapade av"
+
+msgid "classifieds_classifieds_all_created_by_header"
+msgstr "Alla annonser skapade av"
+
+msgid "classifieds_classifieds_all_created_by_go_back"
+msgstr "Tillbaka"
+
+msgid "classifieds_classifieds_all_created_by_go"
+msgstr "Alla annonser skapade av"
+
+msgid "classifieds_invalid_float"
+msgstr "Vänligen ange ett korrekt pris(endast siffror)"
+
+msgid "classifieds_results"
+msgstr "Sökresultat"
+
+msgid "classifieds_classifiedscategory_categoryimage"
+msgstr "Kategori bild"
+
+msgid "classifieds_classifiedscategory_categoryimage_description"
+msgstr "Bild som representerar kategorin"
+

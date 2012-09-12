@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_workflow" meta_type="Plone Workflow Tool">
+ <object name="classifieds_onestate_workflow" meta_type="Workflow"/>
+ <bindings>
+  <type type_id="ClassifiedsCategory">
+   <bound-workflow workflow_id="classifieds_onestate_workflow" />
+  </type>
+  <type type_id="Classified">
+   <bound-workflow workflow_id="classifieds_onestate_workflow" />
+  </type>
+  <type type_id="OrderedClassifiedsCategory">
+   <bound-workflow workflow_id="classifieds_onestate_workflow" />
+  </type>
+ </bindings>
+</object>

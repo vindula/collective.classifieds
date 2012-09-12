@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/collective/!svn/ver/247995/collective.classifieds/trunk/collective/classifieds
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/collective/!svn/ver/247681/collective.classifieds/trunk/collective/classifieds/version.txt
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/collective/!svn/ver/244961/collective.classifieds/trunk/collective/classifieds/configure.zcml
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/collective/!svn/ver/124478/collective.classifieds/trunk/collective/classifieds/__init__.py
+END
+profiles.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/collective/!svn/ver/84662/collective.classifieds/trunk/collective/classifieds/profiles.zcml
+END
+setuphandlers.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/collective/!svn/ver/247681/collective.classifieds/trunk/collective/classifieds/setuphandlers.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/collective/!svn/ver/112617/collective.classifieds/trunk/collective/classifieds/config.py
+END
+refresh.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/collective/!svn/ver/78150/collective.classifieds/trunk/collective/classifieds/refresh.txt
+END

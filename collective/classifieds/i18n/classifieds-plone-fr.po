@@ -1,0 +1,174 @@
+# Gettext Message File for Classifieds
+msgid ""
+msgstr ""
+"Project-Id-Version: Classifieds\n"
+"POT-Creation-Date: 2008-10-07 09:05+0100\n"
+"PO-Revision-Date: 2010-03-31 11:31+0100\n"
+"Last-Translator: nico <nicolas_wicikowski@yahoo.fr>\n"
+"Language-Team: Four Digits <support@fourdigits.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: fr\n"
+"Language-name: French\n"
+"Preferred-encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: fr-fr fr\n"
+
+msgid "classifieds_classified_image_description"
+msgstr "Photo/ image de l'annonce"
+
+msgid "Classifieds"
+msgstr "Annonces"
+
+msgid "OrderedClassifieds"
+msgstr "Annonces (classées par)"
+
+msgid "ClassifiedsCategory"
+msgstr "Catégorie"
+
+msgid "OrderedClassifiedsCategory"
+msgstr "Catégorie (classée par)"
+
+msgid "Classified"
+msgstr "Annonces"
+
+msgid "classifieds_noresults"
+msgstr "Il n'y a aucun résultat!"
+
+msgid "classifieds_search_label"
+msgstr "Rechercher"
+
+msgid "classifieds_search_and_subcategories_label"
+msgstr "ajouter une sous rubrique"
+
+msgid "classifieds_no_image_tile_label"
+msgstr "Aucune photo disponible"
+
+msgid "classifieds_allresults_category"
+msgstr "Voici les résultats de cette rubrique"
+
+msgid "classifieds_classifieds_view"
+msgstr "Voir"
+
+msgid "classified_author"
+msgstr "Auteur"
+
+msgid "classifieds_classifieds_email"
+msgstr "E-mail"
+
+msgid "classifieds_classifieds"
+msgstr "Annonces"
+
+msgid "classifieds_you_searched_on"
+msgstr "Vous avez cherché par"
+
+msgid "classifieds_resultsfound"
+msgstr "Résultat(s) trouvé(s)"
+
+msgid "classifieds_classifieds_all_created_by"
+msgstr "toutes les annonces créées par "
+
+msgid "classifieds_classifieds_all_created_by_header"
+msgstr "Toutes les annonces créées par "
+
+msgid "classifieds_classifieds_all_created_by_go_back"
+msgstr "Retour"
+
+msgid "classifieds_browse_categories"
+msgstr "Voir les catégories"
+
+msgid "classifieds_latest_classifieds"
+msgstr "Annonces les plus récentes"
+
+msgid "classifieds_view_all_classifieds"
+msgstr "Voir toutes les annonces"
+
+msgid "classifieds_all_classifieds"
+msgstr "Toutes les annonces"
+
+msgid "classifieds_results"
+msgstr "Chercher dans les résultats"
+
+msgid "classifieds_sorting"
+msgstr "trier"
+
+msgid "classifieds_classifieds_label"
+msgstr "Annonces"
+
+msgid "classifieds_goto"
+msgstr "Aller a "
+
+msgid "classifieds_within"
+msgstr "sans "
+
+msgid "classifieds_introtext"
+msgstr "Rechercher une annonce dans cette catégorie, chercher dans les annonces, ou aller à une catégorie"
+
+msgid "classifieds_allclassifieds_introtext"
+msgstr "Rechercher une annonce ou chercher toutes les annonces"
+
+msgid "classifieds_classifiedsclassified_label_description"
+msgstr "Description"
+
+msgid "classifieds_classifiedsclassified_label_image"
+msgstr "Photo"
+
+msgid "classifieds_classifiedsclassified_label_price"
+msgstr "Prix"
+
+msgid "classifieds_classifiedsclassified_label_classifieds_in_this_category"
+msgstr "Annonces dans cette catégorie"
+
+msgid "classifieds_classifiedsclassified_label_categories"
+msgstr "Catégories dans "
+
+msgid "classifieds_classifiedsclassified_label_categories_in_this_category"
+msgstr "Catégories"
+
+msgid "classifieds_classifiedscategories_label"
+msgstr "Catégories"
+
+msgid "classifieds_classifiedscategories_image"
+msgstr "Image"
+
+msgid "classified_label_placedby"
+msgstr "Annonces à "
+
+msgid "classifieds_classifiedsclassified_label_placed_at"
+msgstr "à"
+
+msgid "classifieds_label_classifiedscategory"
+msgstr "Catégorie"
+
+msgid "classifieds_label_directlink"
+msgstr "Directlink"
+
+msgid "classifieds_classified_expired"
+msgstr "Annonce expirée le "
+
+msgid "classifieds_classified_delete"
+msgstr "Supprimer cette annonce"
+
+msgid "classifieds_classified_has_been_deleted"
+msgstr "a été effacé"
+
+msgid "classifieds_invalid_float"
+msgstr "Merci de renseigner une valeur numérique"
+
+msgid "classifieds_classifiedscategories_amount_label"
+msgstr "Amount"
+
+msgid "marketplace_no_image_tile_label"
+msgstr "Aucune image"
+
+msgid "classifieds_classified_externalurl"
+msgstr "URL externe"
+
+msgid "classifieds_classified_externalurl_description"
+msgstr "URL externe où trouver plus d'informations sur l'annonce"
+
+msgid "classifieds_label_externalurl"
+msgstr "URL externe"
+

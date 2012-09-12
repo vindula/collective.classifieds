@@ -1,0 +1,173 @@
+# Gettext Message File for Classifieds
+msgid ""
+msgstr ""
+"Project-Id-Version: Classifieds\n"
+"POT-Creation-Date: 2008-10-07 09:05+0100\n"
+"PO-Revision-Date: 2008-10-07 11:08+0200\n"
+"Last-Translator: Ralph Jacobs\n"
+"Language-Team: Four Digits <support@fourdigits.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: en\n"
+"Language-name: English\n"
+"Preferred-encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: en-en en-us"
+
+msgid "classifieds_classified_image_description"
+msgstr "Photo/picture of the classifieds"
+
+msgid "Classifieds"
+msgstr "Classifieds"
+
+msgid "OrderedClassifieds"
+msgstr "Classifieds (with order)"
+
+msgid "ClassifiedsCategory"
+msgstr "Category"
+
+msgid "OrderedClassifiedsCategory"
+msgstr "Category (with order)"
+
+msgid "Classified"
+msgstr "Classified"
+
+msgid "classifieds_noresults"
+msgstr "There are no results"
+
+msgid "classifieds_search_label"
+msgstr "Search"
+
+msgid "classifieds_search_and_subcategories_label"
+msgstr "and subcategories"
+
+msgid "classifieds_no_image_tile_label"
+msgstr "No photo available"
+
+msgid "classifieds_allresults_category"
+msgstr "This are all the results of this category"
+
+msgid "classifieds_classifieds_view"
+msgstr "View"
+
+msgid "classified_author"
+msgstr "author"
+
+msgid "classifieds_classifieds_email"
+msgstr "E-mail"
+
+msgid "classifieds_classifieds"
+msgstr "Classifieds"
+
+msgid "classifieds_you_searched_on"
+msgstr "You searched on"
+
+msgid "classifieds_resultsfound"
+msgstr "result(s) found"
+
+msgid "classifieds_classifieds_all_created_by"
+msgstr "all classifieds created by"
+
+msgid "classifieds_classifieds_all_created_by_header"
+msgstr "All classifieds created by"
+
+msgid "classifieds_classifieds_all_created_by_go_back"
+msgstr "Go back"
+
+msgid "classifieds_browse_categories"
+msgstr "Browse categories"
+
+msgid "classifieds_latest_classifieds"
+msgstr "Latest classifieds"
+
+msgid "classifieds_view_all_classifieds"
+msgstr "View all classifieds"
+
+msgid "classifieds_all_classifieds"
+msgstr "All classifieds"
+
+msgid "classifieds_results"
+msgstr "Searchresults"
+
+msgid "classifieds_sorting"
+msgstr "sort"
+
+msgid "classifieds_classifieds_label"
+msgstr "Classifieds"
+
+msgid "classifieds_goto"
+msgstr "Go to"
+
+msgid "classifieds_within"
+msgstr "within"
+
+msgid "classifieds_introtext"
+msgstr "Search for classifieds within this category, browse the classifieds or go to a specific category to view the classifieds"
+
+msgid "classifieds_allclassifieds_introtext"
+msgstr "Search for classifieds or browse all the classifieds"
+
+msgid "classifieds_classifiedsclassified_label_description"
+msgstr "Description"
+
+msgid "classifieds_classifiedsclassified_label_image"
+msgstr "Photo"
+
+msgid "classifieds_classifiedsclassified_label_price"
+msgstr "Price"
+
+msgid "classifieds_classifiedsclassified_label_classifieds_in_this_category"
+msgstr "Classifieds in this category"
+
+msgid "classifieds_classifiedsclassified_label_categories"
+msgstr "Categories in"
+
+msgid "classifieds_classifiedsclassified_label_categories_in_this_category"
+msgstr "Categories in this category"
+
+msgid "classifieds_classifiedscategories_label"
+msgstr "Categories"
+
+msgid "classifieds_classifiedscategories_image"
+msgstr "Image"
+
+msgid "classified_label_placedby"
+msgstr "Classified placed by"
+
+msgid "classifieds_classifiedsclassified_label_placed_at"
+msgstr "at"
+
+msgid "classifieds_label_classifiedscategory"
+msgstr "Category"
+
+msgid "classifieds_label_directlink"
+msgstr "Directlink"
+
+msgid "classifieds_classified_expired"
+msgstr "Classified expired"
+
+msgid "classifieds_classified_delete"
+msgstr "Delete this classified"
+
+msgid "classifieds_classified_has_been_deleted"
+msgstr "has been deleted."
+
+msgid "classifieds_invalid_float"
+msgstr "Please enter a valid numeric value"
+
+msgid "classifieds_classifiedscategories_amount_label"
+msgstr "Amount"
+
+msgid "marketplace_no_image_tile_label"
+msgstr "No image"
+
+msgid "classifieds_classified_externalurl"
+msgstr "External URL"
+
+msgid "classifieds_classified_externalurl_description"
+msgstr "Extern URL where more information about the classified can be found"
+
+msgid "classifieds_label_externalurl"
+msgstr "External url"

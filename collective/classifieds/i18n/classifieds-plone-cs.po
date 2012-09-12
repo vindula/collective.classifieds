@@ -1,0 +1,172 @@
+# Gettext Message File for Classifieds
+msgid ""
+msgstr ""
+"Project-Id-Version: Classifieds\n"
+"POT-Creation-Date: 2008-10-07 09:05+0100\n"
+"PO-Revision-Date: 2008-10-07 11:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: cs\n"
+"Language-name: Czech\n"
+"Preferred-encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+msgid "classifieds_classified_image_description"
+msgstr "Obrázek/fotografiel položky"
+
+msgid "Classifieds"
+msgstr "Inzeráty"
+
+msgid "OrderedClassifieds"
+msgstr "Inzeráty (zachovávající pořadí)"
+
+msgid "ClassifiedsCategory"
+msgstr "Kategorie"
+
+msgid "OrderedClassifiedsCategory"
+msgstr "Kategorie (zachovávající pořadí)"
+
+msgid "Classified"
+msgstr "Inzerát"
+
+msgid "classifieds_noresults"
+msgstr "Nebyly nalezeny žádné položky"
+
+msgid "classifieds_search_label"
+msgstr "Vyhledat"
+
+msgid "classifieds_search_and_subcategories_label"
+msgstr "vč. podkategorií"
+
+msgid "classifieds_no_image_tile_label"
+msgstr "Bez fotografie"
+
+msgid "classifieds_allresults_category"
+msgstr "Tot jsou všechny výsledky v této kategorii"
+
+msgid "classifieds_classifieds_view"
+msgstr "Zobrazit"
+
+msgid "classified_author"
+msgstr "autor"
+
+msgid "classifieds_classifieds_email"
+msgstr "E-mail"
+
+msgid "classifieds_classifieds"
+msgstr "Inzeráty"
+
+msgid "classifieds_you_searched_on"
+msgstr "Vyhledáváte"
+
+msgid "classifieds_resultsfound"
+msgstr "nalezených položek"
+
+msgid "classifieds_classifieds_all_created_by"
+msgstr "všechny inzeráty vytvořené"
+
+msgid "classifieds_classifieds_all_created_by_header"
+msgstr "Všechny inzeráty vytvořené"
+
+msgid "classifieds_classifieds_all_created_by_go_back"
+msgstr "Zpět"
+
+msgid "classifieds_browse_categories"
+msgstr "Procházet kategorie"
+
+msgid "classifieds_latest_classifieds"
+msgstr "Nejnovější inzeráty"
+
+msgid "classifieds_view_all_classifieds"
+msgstr "Zobrazit všechny inzeráty"
+
+msgid "classifieds_all_classifieds"
+msgstr "Všechny inzeráty"
+
+msgid "classifieds_results"
+msgstr "Výsledky vyhledávání"
+
+msgid "classifieds_sorting"
+msgstr "seřadit"
+
+msgid "classifieds_classifieds_label"
+msgstr "Inzeráty"
+
+msgid "classifieds_goto"
+msgstr "Jít na"
+
+msgid "classifieds_within"
+msgstr "v sekci"
+
+msgid "classifieds_introtext"
+msgstr "Vyhledávejte inzeráty v této kategorii, procházejte inzeráty nebo přejděte na vybranou kategorii"
+
+msgid "classifieds_allclassifieds_introtext"
+msgstr "Vyhledávejte inzeráty nebo je prohlížejte"
+
+msgid "classifieds_classifiedsclassified_label_description"
+msgstr "Popis"
+
+msgid "classifieds_classifiedsclassified_label_image"
+msgstr "Obrázek"
+
+msgid "classifieds_classifiedsclassified_label_price"
+msgstr "Cena"
+
+msgid "classifieds_classifiedsclassified_label_classifieds_in_this_category"
+msgstr "Inzeráty v kategorii"
+
+msgid "classifieds_classifiedsclassified_label_categories"
+msgstr "Kategorie v"
+
+msgid "classifieds_classifiedsclassified_label_categories_in_this_category"
+msgstr "Kategorie v této kategorii"
+
+msgid "classifieds_classifiedscategories_label"
+msgstr "Kategorie"
+
+msgid "classifieds_classifiedscategories_image"
+msgstr "Obrázek"
+
+msgid "classified_label_placedby"
+msgstr "Inzerát vložil"
+
+msgid "classifieds_classifiedsclassified_label_placed_at"
+msgstr "dne"
+
+msgid "classifieds_label_classifiedscategory"
+msgstr "Kategorie"
+
+msgid "classifieds_label_directlink"
+msgstr "Přímý odkaz"
+
+msgid "classifieds_classified_expired"
+msgstr "Inzerát již vypršel"
+
+msgid "classifieds_classified_delete"
+msgstr "Smazat tento inzerát"
+
+msgid "classifieds_classified_has_been_deleted"
+msgstr "byl smazán."
+
+msgid "classifieds_invalid_float"
+msgstr "Zadejte prosím číslo"
+
+msgid "classifieds_classifiedscategories_amount_label"
+msgstr "Množství"
+
+msgid "marketplace_no_image_tile_label"
+msgstr "Bez obrázku"
+
+msgid "classifieds_classified_externalurl"
+msgstr "Externí odkaz"
+
+msgid "classifieds_classified_externalurl_description"
+msgstr "Externí odkaz, kde lze najít další informace o nabízené položce"
+
+msgid "classifieds_label_externalurl"
+msgstr "Externí odkaz"

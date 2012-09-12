@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object name="portal_factory" meta_type="Plone Factory Tool">
+ <factorytypes>
+  <type portal_type="ClassifiedsCategory"/>
+  <type portal_type="Classifieds"/>
+  <type portal_type="Classified"/>
+  <type portal_type="OrderedClassifieds"/>
+  <type portal_type="OrderedClassifiedsCategory"/>
+ </factorytypes>
+</object>

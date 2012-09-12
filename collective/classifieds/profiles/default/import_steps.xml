@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<import-steps>
+ <import-step 
+    id="Classifieds-Update-RoleMappings" 
+    handler="collective.classifieds.setuphandlers.updateRoleMappings"
+    title="Update Workflow role mappings for Classifieds"
+    version="2008-07-30T12:46:19.022741">
+   <dependency step="Classifieds-QI-dependencies"/>
+   updates the workflow role mappings for Classifieds
+ </import-step>
+ <import-step 
+    id="Classifieds-Update-addCatalogIndexes" 
+    handler="collective.classifieds.setuphandlers.addCatalogIndexes"
+    title="Add catalog indexes for Classifieds"
+    version="2009-07-30T12:46:19.022741">
+   <dependency step="Classifieds-QI-dependencies"/>
+   Add catalog indexes for Classifieds
+ </import-step>
+ <import-step 
+    id="Classifieds-postInstall" 
+    handler="collective.classifieds.setuphandlers.postInstall"
+    title="manual coded post-install for Classifieds"
+    version="2008-07-30T12:46:19.022741">
+   <dependency step="Classifieds-QI-dependencies"/>
+   manual coded post-install for Classifieds
+ </import-step>
+</import-steps>
+ 

@@ -1,0 +1,57 @@
+An integration doctest
+======================
+
+Test the collective.classifieds package 
+
+Let's get the portal object
+
+    >>> self.portal
+    <PloneSite at ...>
+
+   >>> self.login()
+
+Become manager
+   >>> self.setRoles(['Manager'])
+
+
+Let's see if the Classifieds is available
+
+    >>> portal_quickinstaller = self.portal.portal_quickinstaller
+    >>> 'collective.classifieds' in  portal_quickinstaller.objectIds()
+    True
+    
+Let's add a classifieds object
+
+    >>> self.portal.invokeFactory('Classifieds','classifieds') 
+    'classifieds'
+
+
+Let's add a classifieds category named books
+
+    >>> self.portal.classifieds.invokeFactory('ClassifiedsCategory',id='books', title='Books') 
+    'books'
+   
+
+Let's add a classified in the books category
+
+    >>> self.portal.classifieds.books.invokeFactory('Classified',id='examplebook', title='Example book') 
+    'examplebook'
+
+
+Let's add a classifieds object with order
+
+    >>> self.portal.invokeFactory('OrderedClassifieds','orderedbooks') 
+    'orderedbooks'
+
+
+
+Let's add a ordered classifieds category named orderedbooks
+
+    >>> self.portal.orderedbooks.invokeFactory('OrderedClassifiedsCategory',id='orderedbooks', title='orderedbooks') 
+    'orderedbooks'
+   
+
+Let's add a classified in the books category
+
+    >>> self.portal.orderedbooks.orderedbooks.invokeFactory('Classified',id='examplebooktwo', title='examplebooktwo') 
+    'examplebooktwo'

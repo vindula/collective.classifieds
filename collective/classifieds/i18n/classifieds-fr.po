@@ -1,0 +1,75 @@
+# Gettext Message File for Classifieds
+msgid ""
+msgstr ""
+"Project-Id-Version: Classifieds\n"
+"POT-Creation-Date: 2008-10-10 09:05+0100\n"
+"PO-Revision-Date: 2011-12-30 16:48+0100\n"
+"Last-Translator: Ralph Jacobs <ralph@fourdigits.nl>\n"
+"Language-Team: Four Digits <support@fourdigits.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: fr\n"
+"Language-name: French\n"
+"Preferred-encodings: utf-8 latin1\n"
+"Domain: classifieds\n"
+"X-Is-Fallback-For: fr-fr fr\n"
+
+msgid "classifieds_classified_description"
+msgstr "Description"
+
+msgid "classifieds_classified_description_description"
+msgstr "Description"
+
+msgid "classifieds_classified_image"
+msgstr "Photo"
+
+msgid "classifieds_classified_image_description"
+msgstr "Photo/image de l'annonce"
+
+msgid "classifieds_classified_additionalimage"
+msgstr "Photo supplémentaire"
+
+msgid "classifieds_classified_additionalimage_desc"
+msgstr "photo/image supplémentaire de l'annonce"
+
+msgid "classifieds_classified_price"
+msgstr "Prix"
+
+msgid "classifieds_classified_price_description"
+msgstr "Prix de l'annonce"
+
+msgid "classifieds_classifieds"
+msgstr "Annonces"
+
+msgid "classifieds_you_searched_on"
+msgstr "Vous avez cherché par "
+
+msgid "classifieds_resultsfound"
+msgstr "Résultat(s) trouvé(s)"
+
+msgid "classifieds_classifieds_all_created_by"
+msgstr "Toutes les annonces créées par "
+
+msgid "classifieds_classifieds_all_created_by_header"
+msgstr "Toutes les annonces créées par "
+
+msgid "classifieds_classifieds_all_created_by_go_back"
+msgstr "Retour"
+
+msgid "classifieds_classifieds_all_created_by_go"
+msgstr "Toutes les annonces créées par "
+
+msgid "classifieds_invalid_float"
+msgstr "Merci de renseigner une valeur numérique"
+
+msgid "classifieds_results"
+msgstr "Chercher dans les résultats"
+
+msgid "classifieds_classifiedscategory_categoryimage"
+msgstr "Image de la catégorie"
+
+msgid "classifieds_classifiedscategory_categoryimage_description"
+msgstr "Image qui réprésente la catégorie"
+

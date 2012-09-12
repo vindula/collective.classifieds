@@ -1,0 +1,18 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:five="http://namespaces.zope.org/five">
+
+    <include file="profiles.zcml" />
+    <include file="browser/browser.zcml"/>
+
+  <include package="Products.CMFCore" file="permissions.zcml"
+           xmlns:zcml="http://namespaces.zope.org/zcml"
+           zcml:condition="have plone-41" />
+
+    <class class=".content.Classified.Classified">
+        <require permission="zope2.View" attributes="delete" />
+    </class>
+
+    <five:registerPackage package="." initialize=".initialize" />
+
+</configure>

@@ -1,0 +1,170 @@
+# Gettext Message File for Classifieds
+msgid ""
+msgstr ""
+"Project-Id-Version: Classifieds\n"
+"POT-Creation-Date: 2008-10-07 09:05+0100\n"
+"PO-Revision-Date: 2009-06-09 01:00-0300\n"
+"Last-Translator: Erico Andrei <erico@simplesconsultoria.com.br>\n"
+"Language-Team: Simples Consultoria <contato@simplesconsultoria.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: pt-br\n"
+"Language-name: Português do Brasil\n"
+"Preferred-encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+msgid "classifieds_classified_image_description"
+msgstr "Imagem do classificado"
+
+msgid "Classifieds"
+msgstr "Classificados"
+
+msgid "ClassifiedsCategory"
+msgstr "Categoria"
+
+msgid "OrderedClassifiedsCategory"
+msgstr "Categoria (com o fim)"
+
+msgid "Classified"
+msgstr "Classificado"
+
+msgid "classifieds_noresults"
+msgstr "Não há resultados"
+
+msgid "classifieds_search_label"
+msgstr "Busca"
+
+msgid "classifieds_search_and_subcategories_label"
+msgstr "e sub-categorias"
+
+msgid "classifieds_no_image_tile_label"
+msgstr "Imagem não disponível"
+
+msgid "classifieds_allresults_category"
+msgstr "Estes são os resultados para esta categoria"
+
+msgid "classifieds_classifieds_view"
+msgstr "Visão"
+
+msgid "classified_author"
+msgstr "autor"
+
+msgid "classifieds_classifieds_email"
+msgstr "E-mail"
+
+msgid "classifieds_classifieds"
+msgstr "Classificados"
+
+msgid "classifieds_you_searched_on"
+msgstr "Você buscou em"
+
+msgid "classifieds_resultsfound"
+msgstr "resultado(s) encontrado(s)"
+
+msgid "classifieds_classifieds_all_created_by"
+msgstr "todos os classificados criados por"
+
+msgid "classifieds_classifieds_all_created_by_header"
+msgstr "Todos os classificados criados por"
+
+msgid "classifieds_classifieds_all_created_by_go_back"
+msgstr "Voltar"
+
+msgid "classifieds_browse_categories"
+msgstr "Navegar pelas categorias"
+
+msgid "classifieds_latest_classifieds"
+msgstr "Últimos classificados"
+
+msgid "classifieds_view_all_classifieds"
+msgstr "Ver todos os classificados"
+
+msgid "classifieds_all_classifieds"
+msgstr "Todos os classificados"
+
+msgid "classifieds_results"
+msgstr "Resultados de busca"
+
+msgid "classifieds_sorting"
+msgstr "ordenar"
+
+msgid "classifieds_classifieds_label"
+msgstr "Classificados"
+
+msgid "classifieds_goto"
+msgstr "Ir para"
+
+msgid "classifieds_within"
+msgstr "dentro de"
+
+msgid "classifieds_introtext"
+msgstr "Buscar classificados dentro desta categoria, navegue por estes classificados ou vá para outra categoria."
+
+msgid "classifieds_allclassifieds_introtext"
+msgstr "Buscar por classificados ou navegar pelos classificados"
+
+
+msgid "classifieds_classifiedsclassified_label_description"
+msgstr "Descrição"
+
+msgid "classifieds_classifiedsclassified_label_image"
+msgstr "Imagem"
+
+msgid "classifieds_classifiedsclassified_label_price"
+msgstr "Preço"
+
+msgid "classifieds_classifiedsclassified_label_classifieds_in_this_category"
+msgstr "Classificados nesta categoria"
+
+msgid "classifieds_classifiedsclassified_label_categories"
+msgstr "Categorias em"
+
+msgid "classifieds_classifiedsclassified_label_categories_in_this_category"
+msgstr "Categorias nesta categoria"
+
+msgid "classifieds_classifiedscategories_label"
+msgstr "Categorias"
+
+msgid "classifieds_classifiedscategories_image"
+msgstr "Imagem"
+
+msgid "classified_label_placedby"
+msgstr "Classificado anunciado por"
+
+msgid "classifieds_classifiedsclassified_label_placed_at"
+msgstr "em"
+
+msgid "classifieds_label_classifiedscategory"
+msgstr "Categoria"
+
+msgid "classifieds_label_directlink"
+msgstr "Link direto"
+
+msgid "classifieds_classified_expired"
+msgstr "Classificado expirado"
+
+msgid "classifieds_classified_delete"
+msgstr "Remover este classificado"
+
+msgid "classifieds_classified_has_been_deleted"
+msgstr "foi removido."
+
+msgid "classifieds_invalid_float"
+msgstr "Por favor informe um valor numérico."
+
+msgid "classifieds_classifiedscategories_amount_label"
+msgstr "Quantidade"
+
+msgid "marketplace_no_image_tile_label"
+msgstr "Nenhuma Imagem"
+
+msgid "classifieds_classified_externalurl"
+msgstr "Endereço externo"
+
+msgid "classifieds_classified_externalurl_description"
+msgstr "External endereço onde maiores informações podem ser encontradas no anúncio"
+
+msgid "classifieds_label_externalurl"
+msgstr "Endereço externo"
