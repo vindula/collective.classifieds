@@ -1,15 +1,15 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="classifieds">
+    i18n_domain="plone">
 
   <include package="Products.GenericSetup" file="meta.zcml" />
 
   <genericsetup:registerProfile
       name="default"
-      title="Classifieds"
+      title="Vindula Classificados"
       directory="profiles/default"
-      description="Add classifieds to a Plone intranet or website."
+      description="Adiciona uma área de Classificados no Vindula."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 

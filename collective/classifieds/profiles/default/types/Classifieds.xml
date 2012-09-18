@@ -3,8 +3,8 @@
         meta_type="Factory-based Type Information with dynamic views"
         xmlns:i18n="http://xml.zope.org/namespaces/i18n">
    
- <property name="title"></property>
- <property name="description"></property>
+ <property name="title">Classificados</property>
+ <property name="description">Classificados</property>
  <property name="content_icon">++resource++collective.classifieds.images/Classifieds.gif</property>
  <property name="content_meta_type">Classifieds</property>
  <property name="product">collective.classifieds</property>

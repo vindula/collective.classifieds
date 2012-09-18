@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 __author__ = """Four Digits <Ralph Jacobs>"""
 __docformat__ = 'plaintext'
 
@@ -19,7 +20,7 @@ schema = Schema((
         allowable_content_types=('text/plain', 'text/html',),
         widget=RichWidget(
             label="Description",
-            description="Description of the classified",
+            description="Descrição do classificado",
             label_msgid="classifieds_classified_description",
             description_msgid="classifieds_classified_description_description",
             i18n_domain='classifieds',
@@ -31,8 +32,8 @@ schema = Schema((
     ImageField(
         name='image',
         widget=ImageField._properties['widget'](
-            label="Image",
-            description="Image of the classified",
+            label="Imagem",
+            description="Imagem para o classificado",
             label_msgid="classifieds_classified_image",
             description_msgid="classifieds_classified_image_description",
             i18n_domain='classifieds',
@@ -51,8 +52,8 @@ schema = Schema((
     ImageField(
         name='additionalimage',
         widget=ImageField._properties['widget'](
-            label="Additional image",
-            description="Additional image of the classified",
+            label="Imagem adicional",
+            description="Imagem adicional para o classificado",
             label_msgid="classifieds_classified_additionalimage",
             description_msgid="classifieds_classified_additionalimage_desc",
             i18n_domain='classifieds',
@@ -71,8 +72,8 @@ schema = Schema((
     FloatField(
         name='price',
         widget=DecimalWidget(
-            label="Price",
-            description="Price of the classified",
+            label="Preço",
+            description="Preço do classificado",
             label_msgid="classifieds_classified_price",
             description_msgid="classifieds_classified_price_description",
             i18n_domain='classifieds',
@@ -84,9 +85,9 @@ schema = Schema((
     StringField(
         name='externalurl',
         widget=StringWidget(
-            label="External URL",
-            description="External URL to find more information\
-                        about the classified",
+            label="Url Externa",
+            description="Url externa para procurar maiores informações\
+                        sobre o classificado",
             label_msgid="classifieds_classified_externalurl",
             description_msgid="classifieds_classified_externalurl_description",
             i18n_domain='classifieds',

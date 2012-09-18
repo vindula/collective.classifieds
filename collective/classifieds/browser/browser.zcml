@@ -3,7 +3,7 @@
            xmlns:five="http://namespaces.zope.org/five"
            xmlns:zcml="http://namespaces.zope.org/zcml"
            xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-           i18n_domain="plone">
+           i18n_domain="classifieds">
 
     <browser:page
        for="collective.classifieds.content.interfaces.IClassifieds"

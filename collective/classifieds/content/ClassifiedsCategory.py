@@ -15,8 +15,8 @@ schema = Schema((
     ImageField(
         name='categoryimage',
         widget=ImageField._properties['widget'](
-            label="Category image",
-            description="Image which represents the category",
+            label="Imagem da Categoria",
+            description="Imagem que representa a categoria",
             label_msgid="classifieds_classifiedscategory_categoryimage",
             description_msgid="classifieds_classifiedscategory_categoryimage_description",
             i18n_domain='classifieds',

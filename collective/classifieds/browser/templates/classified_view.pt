@@ -18,22 +18,22 @@
                                        modificationDate python:here.toLocalizedTime(modificationDate)">
                     <li>
                         <tal:block i18n:translate="classified_label_placedby">
-                            Classified placed by
+                            Classificado anunciado por
                         </tal:block>:
                         <a tal:attributes="href string:${here/absolute_url}/author/${here/Creator}"><tal:block tal:content="string:${authorName}">author</tal:block></a>
 
 
 
                         <tal:block i18n:translate="classifieds_classifiedsclassified_label_placed_at">
-                            on
+                            em
                         </tal:block>:
 
                         <b tal:content="string:$modificationDate">date</b>
                     </li>
                     <li>
 
-                        <a i18n:translate="classifieds_classifieds_view" tal:attributes="href string:${here/absolute_url}/classifiedsclassified_by_author_view?author=${here/Creator}">View</a>
-                        <tal:block i18n:translate="classifieds_classifieds_all_created_by">all classifieds created by</tal:block>
+                        <a i18n:translate="classifieds_classifieds_view" tal:attributes="href string:${here/absolute_url}/classifiedsclassified_by_author_view?author=${here/Creator}">Visualizar</a>
+                        <tal:block i18n:translate="classifieds_classifieds_all_created_by">todos os classificados criados por</tal:block>
                         <tal:block tal:content="authorName">authorName</tal:block>
                     </li>
 
@@ -54,19 +54,19 @@
 
                     <tal:block tal:condition="here/check_delete_permission">
                     <li>
-                        <a href="delete" i18n:translate="classifieds_classified_delete" tal:attributes="href string:${here/absolute_url}/delete">Delete classified</a>
+                        <a href="delete" i18n:translate="classifieds_classified_delete" tal:attributes="href string:${here/absolute_url}/delete">Excluir este classificado</a>
                     </li>
                     </tal:block>
                 </ul>
             </div>
 
-            <tal:block i18n:translate="classifieds_goto">Go to</tal:block>
+            <tal:block i18n:translate="classifieds_goto">Voltar para</tal:block>
             <a tal:attributes="href python: context.getParentNode().absolute_url()" tal:content="context/getClassifiedsCategory">Content</a>
             <br />
 
             <h1 class="classified_title">
                 <span tal:content="context/title">Title</span>
-                <span tal:condition="python:portal.isExpired(here)" i18n:translate="classifieds_classified_expired">(classified expired)</span>
+                <span tal:condition="python:portal.isExpired(here)" i18n:translate="classifieds_classified_expired">(classificado expirado)</span>
             </h1>
 
             <br />
@@ -97,22 +97,22 @@
                         <tal:block tal:content="structure here/getDescription" />
 
                         <tal:block tal:condition="exists: context/price">
-                            <h2 class="classified_title" i18n:translate="classifieds_classifiedsclassified_label_price">Price</h2>
+                            <h2 class="classified_title" i18n:translate="classifieds_classifiedsclassified_label_price">Preço</h2>
                             <tal:block tal:content="python:'%0.2f' % context.price" />
                         </tal:block>
                         <br />
                     </td>
                 </tr>
             </table>
-            <h2 class="classified_title" i18n:translate="classifieds_label_classifiedscategory">Classifieds Category</h2>
+            <h2 class="classified_title" i18n:translate="classifieds_label_classifiedscategory">Categoria</h2>
             <a tal:attributes="href python: context.getParentNode().absolute_url()" tal:content="context/getClassifiedsCategory">Content</a>
             <br />
 
-            <h2 class="classified_title"  i18n:translate="classifieds_label_directlink">Directlink:</h2>
+            <h2 class="classified_title"  i18n:translate="classifieds_label_directlink">Link Direto:</h2>
             <a tal:attributes="href python: context.absolute_url()" tal:content="context/absolute_url">Content</a>
 
             <tal:block tal:condition="context/getExternalurl">
-                <h2 class="classified_title"  i18n:translate="classifieds_label_externalurl">External URL:</h2>
+                <h2 class="classified_title"  i18n:translate="classifieds_label_externalurl">URL externa:</h2>
                 <a tal:attributes="href python: context.getExternalurl()" tal:content="context/getExternalurl"  target="_blank">External URL</a>
             </tal:block>
 

@@ -4,6 +4,7 @@ __docformat__ = 'plaintext'
 from Products.CMFCore.permissions import setDefaultRoles
 
 PROJECTNAME = "collective.classifieds"
+I18N_DOMAIN = 'plone'
 
 # Permissions
 DEFAULT_ADD_CONTENT_PERMISSION = "Add portal content"
