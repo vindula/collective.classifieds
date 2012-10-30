@@ -1,7 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
       lang="en"
       metal:use-macro="here/main_template/macros/master"
-      i18n:domain="plone">
+      i18n:domain="classifieds">
 <body>
     <div metal:fill-slot="main"
                  tal:define="results python: view.search();
@@ -140,7 +140,10 @@
 
                                         </td>
                                         <td>
-                                            <tal:block tal:condition="python:isinstance(item['price'], float)" tal:content="python:'%0.2f' % item['price']" />
+                                            <tal:block tal:condition="python:isinstance(item['price'], float)"
+											           tal:define="valor python:'%0.2f' % item['price']" 
+                                                       tal:content="python: 'R$ '+ valor.replace('.',',')">preço</tal:block>
+											 
                                         </td>
                                     </tal:block>
                                 </tr>

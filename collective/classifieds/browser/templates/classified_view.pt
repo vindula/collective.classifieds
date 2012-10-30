@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
       lang="en"
       metal:use-macro="here/main_template/macros/master"
-      i18n:domain="plone">
+      i18n:domain="classifieds">
     <body>
         <div metal:fill-slot="main" id="classifieds" tal:define="portal context/@@plone_portal_state/portal;">
             <div tal:replace="structure provider:plone.abovecontenttitle" />
@@ -98,7 +98,8 @@
 
                         <tal:block tal:condition="exists: context/price">
                             <h2 class="classified_title" i18n:translate="classifieds_classifiedsclassified_label_price">Preço</h2>
-                            <tal:block tal:content="python:'%0.2f' % context.price" />
+                            <tal:block tal:define="valor python:'%0.2f' % context.price" 
+                                       tal:content="python: 'R$ '+ valor.replace('.',',')">Preço</tal:block> 
                         </tal:block>
                         <br />
                     </td>
