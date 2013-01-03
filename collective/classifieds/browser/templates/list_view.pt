@@ -30,9 +30,11 @@
                     <input class="searchButton"
                                id="btnSearch"
                                type="submit"
-                               value="Search"
+                               value="Buscar"
                                i18n:attributes="value label_search;"/>
                 </div>
+                <br />
+                
                 <tal:block tal:condition="not:results">
                     <tal:block tal:condition="python: view.getLatestClassifieds(10)">
                         <h2 class="classified_title" i18n:translate="classifieds_latest_classifieds">Últimos classificados</h2>
