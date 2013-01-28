@@ -5,19 +5,21 @@ from AccessControl import ClassSecurityInfo
 from Products.Archetypes.atapi import *
 from zope.interface import implements
 import interfaces
+from collective.classifieds.content.interfaces import IClassifieds
+from Products.ATContentTypes.content.schemata import finalizeATCTSchema
+from plone.app.folder.folder import ATFolder
 
 from Products.CMFDynamicViewFTI.browserdefault import BrowserDefaultMixin
 from collective.classifieds.config import *
 
-schema = Schema((
+Classifieds_schema =  ATFolder.schema.copy() + Schema((
+))
 
-),
-)
+finalizeATCTSchema(Classifieds_schema, folderish=True)
+invisivel = {'view':'invisible','edit':'invisible',}
+Classifieds_schema["nextPreviousEnabled"].widget.visible = invisivel
 
-Classifieds_schema = BaseBTreeFolderSchema.copy() + schema.copy()
-
-
-class Classifieds(BaseBTreeFolder, BrowserDefaultMixin):
+class Classifieds(ATFolder):
     """
         Container which can contain Categories and Classifieds
     """

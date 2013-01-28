@@ -8,3 +8,6 @@ Changelog
 -------------------
 - Adição do R$ nas visualisações dos produtos
 
+1.1.2 - 2013-01-28
+-------------------
+- Alteando o Content Type Classifieds para ATFolder, habilitando a opção de Excluir da Navegação.
