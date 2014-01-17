@@ -98,8 +98,7 @@
 
                         <tal:block tal:condition="exists: context/price">
                             <h2 class="classified_title" i18n:translate="classifieds_classifiedsclassified_label_price">Preço</h2>
-                            <tal:block tal:define="valor python:'%0.2f' % context.price" 
-                                       tal:content="python: 'R$ '+ valor.replace('.',',')">Preço</tal:block> 
+                            <tal:block tal:content="view/get_price">Preço</tal:block> 
                         </tal:block>
                         <br />
                     </td>
